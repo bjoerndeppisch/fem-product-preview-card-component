@@ -1,0 +1,13 @@
+/* Utilities */
+@use 'abstract' as *;
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.center {
+  display: grid;
+  place-content: center;
+}

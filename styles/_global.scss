@@ -1,0 +1,15 @@
+/* Global */
+@use 'abstract' as *;
+
+body {
+  background-color: var(--clr-primary-light);
+  font-family: var(--ff-sans);
+  font-size: rem(14);
+  font-weight: var(--fw-medium);
+  color: var(--clr-neutral-light);
+  padding-inline: 1rem;
+}
+
+main {
+  max-width: 600px;
+}

@@ -1,0 +1,170 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+p {
+  max-width: 70ch;
+}
+
+ol,
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Variables */
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-primary-dark: hsl(158, 36%, 37%);
+  --clr-primary-hover: hsla(157, 43%, 18%, 1);
+  --clr-primary-light: hsl(30, 38%, 92%);
+  --clr-neutral-dark: hsl(212, 21%, 14%);
+  --clr-neutral-light: hsl(228, 12%, 48%);
+  --ff-sans: "Montserrat", sans-serif;
+  --ff-serif: "Fraunces", serif;
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
+
+/* Global */
+body {
+  background-color: var(--clr-primary-light);
+  font-family: var(--ff-sans);
+  font-size: 0.875rem;
+  font-weight: var(--fw-medium);
+  color: var(--clr-neutral-light);
+  padding-inline: 1rem;
+}
+
+main {
+  max-width: 600px;
+}
+
+/* Utilities */
+.flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.center {
+  display: grid;
+  place-content: center;
+}
+
+/* Components */
+.product {
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (min-width: 37.5em) {
+  .product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.product__content {
+  display: grid;
+  gap: 1rem;
+  padding: clamp(1.5rem, 1.323943662rem + 0.7511737089vw, 2rem);
+  background-color: var(--clr-white);
+}
+.product__pre-title {
+  font-size: 0.75rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.product__title {
+  font-family: var(--ff-serif);
+  font-size: 2rem;
+  color: var(--clr-neutral-dark);
+  font-weight: var(--fw-bold);
+}
+.product__price-new {
+  font-family: var(--ff-serif);
+  font-size: 2rem;
+  color: var(--clr-primary-dark);
+  font-weight: var(--fw-bold);
+}
+.product__price-old {
+  text-decoration: line-through;
+}
+
+.button {
+  border-style: none;
+  border-radius: 8px;
+  padding-block: 1rem;
+  background-color: var(--clr-primary-dark);
+  color: var(--clr-white);
+  font-weight: var(--fw-bold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.button::before {
+  content: "";
+  background-image: url("/assets/icon-cart.svg");
+  width: 15px;
+  height: 16px;
+}
+.button:hover {
+  background-color: var(--clr-primary-hover);
+}/*# sourceMappingURL=main.css.map */
