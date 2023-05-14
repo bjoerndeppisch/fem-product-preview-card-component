@@ -8,8 +8,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- [Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/product-preview-sass-bem-flexbox-grid-fluid-sizing-custom-properties-BLLM58v88o))
-- [Live Site]([https://your-live-site-url.com](https://bd-fem-product-preview-card-component.netlify.app/))
+- [Solution](https://www.frontendmentor.io/solutions/product-preview-sass-bem-flexbox-grid-fluid-sizing-custom-properties-BLLM58v88o)
+- [Live Site](https://bd-fem-product-preview-card-component.netlify.app/)
 
 ## My process
 
