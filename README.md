@@ -11,8 +11,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Solution](https://www.frontendmentor.io/solutions/product-preview-sass-bem-flexbox-grid-fluid-sizing-custom-properties-BLLM58v88o)
 - [Live Site](https://bd-fem-product-preview-card-component.netlify.app/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
